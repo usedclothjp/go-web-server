@@ -4,6 +4,8 @@ jobs:
     working_directory: /go/src/github.com/pospome/go-web-server
     docker:
       - image: google/cloud-sdk
+          environment:
+            GO111MODULE: "on"
     steps:
       - checkout
       - setup_remote_docker:
@@ -19,9 +21,9 @@ jobs:
           name: Push docker image
           command: |
             docker build -t go-web-server .
-            TAG=gcr.io/pospome-deployflow-project/go-web-server:pushed-‘date +% Y%m%d%H%M%S‘
+            TAG=gcr.io/go-deployflow-project/go-web-server:pushed-‘date +% Y%m%d%H%M%S‘
             docker tag go-web-server $TAG
             docker push $TAG
-            LATEST_TAG=gcr.io/pospome-deployflow-project/go-web-server:latest
+            LATEST_TAG=gcr.io/go-deployflow-project/go-web-server:latest
             docker tag go-web-server $LATEST_TAG
             docker push $LATEST_TAG
