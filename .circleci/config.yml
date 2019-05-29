@@ -4,8 +4,8 @@ jobs:
     working_directory: /go/src/github.com/pospome/go-web-server
     docker:
       - image: google/cloud-sdk
-          environment:
-            GO111MODULE: "on"
+        environment:
+          GO111MODULE: "on"
     steps:
       - checkout
       - setup_remote_docker:
