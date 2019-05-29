@@ -6,5 +6,6 @@ COPY . .
 RUN go get -d -v ./...
 RUN go install -v ./...
 
-CMD ["go-web-server"]
+# CMD ["go-web-server"]
+CMD ["./main"]
  
