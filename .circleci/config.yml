@@ -1,12 +1,20 @@
 version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/golang:1.11
-
-    working_directory: /go/src/github.com/work/go-web-server
-    steps:
-      - checkout
-
-      - run: go get -v -t -d ./...
-      - run: go test -v ./...
+    jobs:
+      build:
+        working_directory: /go/src/github.com/pospome/go-web-server
+        docker:
+          - image: google/cloud-sdk
+        steps:
+          - checkout
+          - setup_remote_docker:
+              version: 18.06.0-ce
+          - run:
+            name: Setup CLOUD SDK
+            command: | 
+              echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+              gcloud --quiet config set project pospome-deployflow-project
+              gcloud --quiet config set compute/zone asia-east1-b
+              gcloud --quiet auth configure-docker
+          - run:
+            name: Push docker image
+            command: |

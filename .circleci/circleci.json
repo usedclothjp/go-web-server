@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "go-deployflow-project",
+  "private_key_id": "0db05dbade5db0621d99381ec3a803e56a26de74",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCa1TxBS5Y4RBt+\nido3GxRSUs2U+wvHw/+h4qjp+N8W7e0xn8RgK48u4/mgAY+l3ndevYWWgdBxOnPZ\nkW4on8p2zNpYUZBuERuBRSeJA/AOrzOIjtvlTSJBDeEIMfoT3+RLv7UMQgj8wHO4\n6UTrAArJxIXURfqGFnxsQ6L3IWRFmQTmkCuUpM97IZUWU/Ldxkn/MQ7yVGjib/6u\n1RDP3oLucqgzGymYAxws8YLwSMj0RgAhTG9EO+42fK4KJJ7amT6SfjrzGX3NEHkt\nfIEEm+hrpbN1gwm3R6sGjbIDOxvFTrJrBf65J/f26SkDTmGrOePy6POH+bo8CSUU\nCSmUVuOBAgMBAAECggEABaFn/8rfI1wssMkUD6lzL3w14CtR9hmFUA6FTH7ho/yS\ngdm4wzOKUS72qrAr2GES77XOKBc/7IIu6NROUHlhHDleXlRW/32tRaHtamDjh7Es\n21QwoHHR41I9IvZoTPU5IN0PmSrEl2ZrPufyuuYFPmmgYUQLNHmYXDqIcFq9Qf+c\nT4Z1DwIG2UPqqe9yMrNhBoE2YTwYHKubJu9/cANccSqKaawjybk/KVQj51FhGZfm\nmDxepntpNyEXYjI30Ks4at0MdYaldFoYhSzryrhZ2agY1oApTcnBAADoMRYLoP8Z\nuNsRdnVGgdTK+iTtLI3/LRizy3wBUOARj20COk8+3QKBgQDLW3zkgpLqcHg+RRfi\n/AQ34b0pXF68yeOY5owg09JkQDUFbj8VKOITWqkaM4h2t2S9xBpDJdCAMYZnQLdJ\nEZE4pVTCIWzQnhQTit1sKcGMcz1/ki/rBYNMDfmbpH1kaJDUoNpEEa6Debo0C7is\nCZW5YlsRba7humXCZYxQ8jUb5QKBgQDC6geIi2oScogMNKnapCxjftOyn1Wja6Nu\nPKeH+j4uQMkNwnbKW7yV7nldtGxG2sgoRii0f/J1L2KogTt+IdxgQSpL8BbAkodT\nscX/HWHNwBKlaqR7X499vrfIR3XARfi74LJy3tJtJXj8wvYN+77H3apVVyNrJH5q\nEStGHC/HbQKBgQCni90+uIYrOjcXtv2TOmiPUiH0LfKwQPaQR4M0mNFDX9NPgiHf\nYSvDHnMs70CD713FLAknQcSjmipOb/eS8DJiJXXL7JYm29dWspb0QwMAoQIOVXe9\nf3FJ/EmnfsMBM1YAmfa7FoZeNLDBqNaih9MgRnUZyvDHcjfdDqWpG6W+MQKBgC1+\ntK1xZRvTMeAvdqn7AgVjOASMXk/bsvTrIWuCxHrFUmhsyI9pJDaWyCtQDqnnLSsB\nXUTsTGp/2fZc28cQHkE1VKsO6jCewwmNCBsI/6gnufJ0VtoZLwP5vSn5TAnKC0nH\nI7/eNJ2XToso8ofHB/vcyIJM6Y57oSoewcwGjjxtAoGAfj42jrCU9g0bwSXsyCYo\nO56TXSF18zizyDryGpXcr3Nkj5NIe9Nq7I5Ixe2+6zCVt44GVlZPzRpO04z1VCca\nvLkGII2bJfa30bYoVGK+TgLR5Qmc2COeDTJUaH2UNw5WCRV8reuilSP3k800Mds1\nXG86VUwySt5PZmxboUbb/O8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "circleci@go-deployflow-project.iam.gserviceaccount.com",
+  "client_id": "109632775161348159683",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/circleci%40go-deployflow-project.iam.gserviceaccount.com"
+}
