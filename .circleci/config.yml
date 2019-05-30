@@ -14,7 +14,7 @@ jobs:
           name: Setup CLOUD SDK
           command: | 
             echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
-            gcloud --quiet config set project pospome-deployflow-project
+            gcloud --quiet config set project go-deployflow-project
             gcloud --quiet config set compute/zone asia-east1-b
             gcloud --quiet auth configure-docker
       - run:
